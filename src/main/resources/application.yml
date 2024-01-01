@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: htt://
+          uri: https://github.com/wesleyweitianqi/spring-cloud-config.git
           clone-on-start: true
 
   security:
