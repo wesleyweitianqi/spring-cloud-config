@@ -1,3 +1,3 @@
 
 config:
-  info: fileName=application-dev.yml, username=Wesley
+  info: fileName=application-dev.yml, branchName=Wesley
