@@ -1,14 +1,17 @@
 server:
   port: 8888
+
+# server name
 spring:
+  application:
+    name: configserver
+
+  #git repo config
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/wesleyweitianqi/spring-cloud-config.git
-          clone-on-start: true
+          default-label: config
+          uri: https://github.com/wesleyweitianqi/config-server.git
 
-  security:
-    user:
-      name: root
-      password: wei123
+
